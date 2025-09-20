@@ -1,0 +1,3 @@
+Transcript,Summary,Sentiment
+"""I'm glad the technician was able to fix the problem so fast. Everything's working great now.""","The customer was extremely satisfied with the service provided by the technician, mentioning that the problem was fixed quickly. The issue is now resolved, and everything is working as expected. The customer's main goal was to express gratitude for a job well done.",Positive
+"""This is the third time I've had to call about this problem, and nothing has changed.""","The customer has called multiple times about a problem that still hasn't been resolved, indicating frustration and a lack of progress in resolving the issue.",Negative
