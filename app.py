@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Use .env key if available, else fallback to hardcoded key
-GROQ_API_KEY = os.getenv("GROQ_API_KEY") or "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"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Groq API endpoint and model
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
@@ -78,3 +78,4 @@ if st.button("Analyze"):
             st.success("Saved to call_analysis.csv")
     else:
         st.warning("Please enter a transcript.")
+
